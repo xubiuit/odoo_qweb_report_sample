@@ -8,14 +8,14 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[odoo_qweb_report_sample](/) | 9.0.1.0.0 | Odoo Qweb Report Samples
+[odoo_qweb_report_sample](/) | 8.0.0.1.0 - 9.0.1.0.0 | Odoo Qweb Report Samples
 
 
 # Installation #
 Installation process is at present stage only possible in manual way.
 
 # NOTE #
-This module depend on module "Product - product" to get demo data.
+This module depend on module "CRM - crm" to get demo data.
 
 ## Prerequisite ##
 Before installing the module make sure that the you have configured an addon path for custom addons. In a Linux system the parameter in the config file usually looks similar as the following example:

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<template id="odoo_qweb_report_sample.product_template_report_template">
+			<t t-call="report.html_container">
+				<t t-foreach="docs" t-as="o">
+					<div class="page">
+						<t t-esc="o.name" />
+					</div>
+				</t>
+			</t>
+		</template>
+		
+		<report id="odoo_qweb_report_sample.product_template_report"
+			name="odoo_qweb_report_sample.product_template_report_template"
+			file="odoo_qweb_report_sample.product_template_report_template"
+			model="product.template"
+			report_type="qweb-pdf"
+			string="Product Report"
+			menu="True"/>
+
+	</data>
+</openerp>

@@ -42,9 +42,10 @@ Copyright, Authors and Licence:
     'website': 'http://www.xubi.me',
     'license': 'AGPL-3',
     'depends': [
-        'product',
+        'crm',
     ],
     'data': [
+        'report/product_template_report_templates.xml',
     ],
     'qweb': [
     ],
