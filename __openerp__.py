@@ -43,8 +43,10 @@ Copyright, Authors and Licence:
     'license': 'AGPL-3',
     'depends': [
         'crm',
+        'report'
     ],
     'data': [
+        'views/inherit_report_layouts.xml',
         'report/product_template_report_templates.xml',
     ],
     'qweb': [

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+	<template id="minimal_layout" inherit_id="report.minimal_layout">
+		<xpath expr="//head" position="inside">
+			<t t-if="css">
+            	<style type="text/css">
+            		<t t-raw="css"/>
+            	</style>
+            </t>
+		</xpath>
+	</template>
+</data>
+</openerp>
