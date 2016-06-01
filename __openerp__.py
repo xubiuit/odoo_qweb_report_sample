@@ -52,4 +52,5 @@ Copyright, Authors and Licence:
     'qweb': [
     ],
     'installable': True,
+    'application': True,
 }
